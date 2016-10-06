@@ -1,0 +1,10 @@
+COMPILAR
+
+
+$mpicxx -c ejemplo.c
+
+$mpicxx -o ejemplo ejemplo.o
+
+EJECUTAR
+
+mpirun -np 4 ./ejemplo
